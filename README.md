@@ -8,7 +8,7 @@ Steps
 * Check if SonarQube is running
     * http://localhost:9000
 * Run sonar analysis:
-    * $ gradle sonarqube
+    * $ gradle clean sonarqube
 * Access the running server and check the result:
     * http://localhost:9000
 
