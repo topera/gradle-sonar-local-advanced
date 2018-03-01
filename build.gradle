@@ -1,6 +1,7 @@
 // tested with gradle 4.0
 plugins {
     id 'java'
+    id 'jacoco' // necessary to have code coverage results
     id 'org.sonarqube' version "2.6.2"
 }
 
