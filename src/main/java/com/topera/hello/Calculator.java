@@ -1,3 +1,6 @@
+/*
+ * Copyright (c) 2018 TeraHorse
+ */
 package com.topera.hello;
 
 class Calculator {
