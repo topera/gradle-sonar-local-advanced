@@ -11,14 +11,6 @@ Steps
     * $ gradle clean sonarqube
 * Access the running server and check the result:
     * http://localhost:9000
-* Extra: if local sonar is running and the plugin **SVG Badges** is installed, you can see bellow a badge with statistics of last sonar analysis:
-| Quality Gateway | [![Build Status](http://localhost:9000/api/badges/gate?key=my:project)](http://localhost:9000/dashboard?id=my:project)  | 
-| Lines of Code |	[![Build Status](http://localhost:9000/api/badges/measure?metric=ncloc&key=my:project)](http://localhost:9000/dashboard?id=my:project) |
-| Complexity  by functions |	[![Build Status](http://localhost:9000/api/badges/measure?metric=function_complexity&key=my:project)](http://localhost:9000/dashboard?id=my:project) |
-| Coverage |	[![Build Status](http://localhost:9000/api/badges/measure?metric=coverage&key=my:project)](http://localhost:9000/dashboard?id=my:project) |
-| Coverage (new code) |	[![Build Status](http://localhost:9000/api/badges/measure?metric=new_coverage&key=my:project)](http://localhost:9000/dashboard?id=my:project) |
-| Duplications |	[![Build Status](http://localhost:9000/api/badges/measure?metric=new_coverage&key=my:project)](http://localhost:9000/dashboard?id=my:project) |
-| Duplications (new code) |	[![Build Status](http://localhost:9000/api/badges/measure?metric=duplicated_lines_density&key=my:project)](http://localhost:9000/dashboard?id=my:project) |
 
 Tech Stack
 * IntelliJ IDEA 2017.2.6
