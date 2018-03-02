@@ -6,7 +6,7 @@ import org.junit.Test;
 public class CalculatorTest {
 
     @Test
-    public void callSum() throws Exception {
+    public void testCallSum() throws Exception {
         Assert.assertEquals("Testing the sum", 2, new Calculator().callSum(1, 1));
     }
 
